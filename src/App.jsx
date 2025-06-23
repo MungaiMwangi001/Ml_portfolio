@@ -1,4 +1,3 @@
-import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
@@ -13,18 +12,12 @@ function App() {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={
-          <>
-            <Hero />
-            <Features />
-            <Projects />
-            <About />
-            <Articles />
-            <Contact />
-          </>
-        } />
-      </Routes>
+      <Hero />
+      <Features />
+      <Projects />
+      <About />
+      <Articles />
+      <Contact />
       <Footer />
     </>
   );

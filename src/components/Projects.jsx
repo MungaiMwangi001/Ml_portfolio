@@ -3,7 +3,7 @@ import './Projects.css';
 const projects = [
   {
     name: 'BOILERPLATE-MEDICAL-DATA-VISUALIZER',
-    image: '/thumbnails/medical-data-visualizer.png',
+    image: 'thumbnails/medical-data-visualizer.png',
     description: 'Visualize and analyze medical data with interactive charts and insights.',
     tools: ['Python', 'Pandas', 'Matplotlib'],
     github: 'https://github.com/MungaiMwangi001/Machine_learning-Lab/tree/main/FCC_projects/BOILERPLATE-MEDICAL-DATA-VISUALIZER',
@@ -11,7 +11,7 @@ const projects = [
   },
   {
     name: 'BOILERPLATE-PAGE-VIEW-TIME-SERIES-VISUALIZER',
-    image: '/thumbnails/page-view-time-series.png',
+    image: 'thumbnails/page-view-time-series.png',
     description: 'Analyze and visualize time series data for web page views.',
     tools: ['Python', 'Pandas', 'Matplotlib'],
     github: 'https://github.com/MungaiMwangi001/Machine_learning-Lab/tree/main/FCC_projects/BOILERPLATE-PAGE-VIEW-TIME-SERIES-VISUALIZER',
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     name: 'BOILERPLATE-SEA-LEVEL-PREDICTOR',
-    image: '/thumbnails/sea-level-predictor.png',
+    image: 'thumbnails/sea-level-predictor.png',
     description: 'Predict and visualize sea level changes using regression models.',
     tools: ['Python', 'Pandas', 'Matplotlib'],
     github: 'https://github.com/MungaiMwangi001/Machine_learning-Lab/tree/main/FCC_projects/BOILERPLATE-SEA-LEVEL-PREDICTOR',
